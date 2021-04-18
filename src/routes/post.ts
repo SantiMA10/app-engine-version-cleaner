@@ -3,7 +3,7 @@ import { HTTP } from 'cloudevents';
 import { StatusCodes } from 'http-status-codes';
 
 export const routes = (): ServerRoute => ({
-	method: 'GET',
+	method: 'POST',
 	path: '/',
 	handler: (request: Request, h: ResponseToolkit) => {
 		const event = { body: request.payload, headers: request.headers };
