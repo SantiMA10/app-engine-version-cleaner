@@ -16,6 +16,7 @@
 	},
 	"dependencies": {
 		"@hapi/hapi": "^20.1.2",
+		"cloudevents": "^4.0.1",
 		"http-status-codes": "^2.1.4"
 	},
 	"devDependencies": {
